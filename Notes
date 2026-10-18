@@ -10,6 +10,8 @@
 ### Operators
 #### Logical, Comparision, assignment, Bitwise
 
-## Reference and Copying
+## Reference and Copying, deepcopy (Import copy), Shallow copy
 ## Mutable and Immutable
-
+## Input && output
+## Reverse indexing -1,-2....-n
+## Multilie comment with triple quotes """ """
