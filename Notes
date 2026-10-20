@@ -16,3 +16,57 @@
 ## Reverse indexing -1,-2....-n
 ## Multilie comment with triple quotes """ """
 ## Unpacking and spreading operatos `*`, `**`
+## Truthiness
+## status = "Adult" if age>=18 else "Minor"
+## iterable, string is iterable
+## range(1,10)
+## for i in iterable:
+## keywords: pass, continue, break
+## enumerate
+         """
+for i,j in enumerate(values.items()):
+   k,v=j
+   print(k,v)
+   count+=1
+print(f"Loop executed {i=1} times")
+
+"""
+
+## Functions:
+## Tyepes of arguments
+### Positional arguments
+### Keyword arguements
+### default arguments
+### unpacking variable like *args
+#### *args is taking as a tuple
+#### **kwargs is taking as a dictionary
+"""
+ *args is tuple
+**kwargs is dictionary
+
+def show_all(*args, **kwargs):
+  print(args)
+  print(kwargs
+
+show_all(1,2,3,4,5, name="monal", phone_no="+9848117144"
+
+"""
+## Scope of the variable
+### global a
+### """ `assignment and modification is not allowed, reading of global variable is allowed inside a function`
+     # for collections modificatins is allowed
+"""
+
+# Assignments
+## Exception handling
+## OS library -> os, path.join, os.getcwd, os.listdir, relative apth vs full path
+## File Handling (practice file handling with exception handling
+## OOPS (class, object, constructor, methods, attributes, self)
+
+## Comprehension (Priority 2)
+## useful built-in (any(), all(), map(), filter(), enumerate(), zip(), sorted()
+## lambda
+
+
+  
+
