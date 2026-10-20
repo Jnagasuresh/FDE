@@ -44,3 +44,11 @@ retries = int(os.getenv("RETRIES", "3"))  # values are ALWAYS strings, so conver
 os.environ["TEST_ENV"] = "staging"        # set it for this process and any child it starts
 del os.environ["TEST_ENV"]                # unset it
 print("----------os.path Environment variables end..........")
+
+print("-----os scandir-----")
+# Each entry already knows whether it’s a file or a folder, so there are fewer system calls than `listdir`` plus `isdir``:
+
+with os.scandir(".") as entries:
+    for entry in entries:
+        kind = "DIR " if entry.is_dir() else "FILE"
+        print(kind, entry.name, entry.stat().st_size)
