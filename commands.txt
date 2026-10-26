@@ -1,0 +1,5 @@
+C:\<path>\scripts\activate
+uv pip install  ipykernel
+
+# To install `requests' module using uv.
+uv pip install requests
